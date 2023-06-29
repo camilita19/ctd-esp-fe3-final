@@ -1,9 +1,9 @@
 import React from 'react'
-import imgDH from './assets/images/DH.png'
-import ico_face from './assets/images/ico-facebook.png'
-import ico_insta from './assets/images/ico-instagram.png'
-import ico_tiktok from './assets/images/ico-tiktok.png'
-import ico_what from './assets/images/ico-whatsapp.png'
+import imgDH from '../images/DH.png'
+import ico_face from '../images/ico-facebook.png'
+import ico_insta from '../images/ico-instagram.png'
+import ico_tiktok from '../images/ico-tiktok.png'
+import ico_what from '../images/ico-whatsapp.png'
 
 const Footer = () => {
   return (

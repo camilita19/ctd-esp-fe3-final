@@ -7,7 +7,7 @@ import moonSvg from '../images/Moon.svg'
 //Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
 
 const Navbar = () => {
-   const {theme, state, dispatch} = useContext(ContextGlobal);
+   const { state, dispatch} = useContext(ContextGlobal);
 
  
    
@@ -25,13 +25,16 @@ const Navbar = () => {
       {/* Deberan implementar ademas la logica para cambiar de Theme con el button */}
 
      
+{/* 
+       <button className={state.theme ==='light' ? "navbar-dark bg-dark" : "navbar-light bg-light"}
 
-       <button className=''
-       onClick={(()=> dispatch({type: 'CHANGE_THEME', payload: state.theme}))}>
-       {state.theme ? <img src={sunSvg} alt="" /> : <img src={moonSvg} alt="" />}
-      </button> 
+       onClick={(()=> dispatch({type: 'CHANGE_THEME', payload: state.theme }))}>
+       {state.theme ? "☀️" : "🌙"}
+      </button>  */}
     </nav>
   )
 }
 
 export default Navbar
+
+{/* <img src={sunSvg} alt="" /> : <img src={moonSvg} alt="" />} */}
