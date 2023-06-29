@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+
 }
 
 code {
@@ -40,7 +42,7 @@ a:hover{
   color: rgb(136, 136, 136);
 } 
 
-footer {
+/* footer {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -50,25 +52,32 @@ footer {
   width: 90%;
   height: 40px;
   margin-top: 2rem;
-}
+} */
 
-footer > img{
-  width: 200px;
-  margin: 0;
+footer{
+margin-top: 0;
+
+
+
 }
+/* footer > img{
+  width: 200px;
+  /* margin: 0; */
+/* 
 footer > p{
   margin: 0;
   padding-top: 0.7rem;
-}
-
+} */
 form{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  width: 300px;
-  height: 100px;
-  margin: 0 auto;
+  padding: 50px 50px 55px;
+  box-shadow: 0 0 20px rgba(0, 0,0,0.3);
+  border-radius: 25px;
+  text-align:  center;
+  
 }
+
 
 .card{
   display: flex;
@@ -120,3 +129,88 @@ tr:nth-child(even) {
 .dark > a {
   color: white;
 }
+.imput-form{
+  border-radius: 10px;
+  margin: 3px;
+  padding: 4px 1px
+}
+.contact{
+    display: grid;
+    place-items: center;
+    padding: 80px;
+  
+}
+.conteiner-form{
+  padding: 2em;
+  border-radius: 30px; 
+  margin-bottom: 10px;  
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: #000;
+
+}
+.conteiner-form-h2{
+ text-align: center;
+ color: #000;
+ align-items: center;
+
+}
+.input-form{
+  flex-wrap: wrap;
+  align-items: center;
+  width:180px;
+	padding:3px 10px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+	display:inline-block;
+  border-radius: 5px;
+ 
+}
+.boton{
+  width:205px;
+ margin-top: 5px;
+ border-radius: 3px;
+ background-color: rgb(211, 208, 208);
+ border: lightslategrey;
+ height: 25px;
+
+}
+.navbar{
+  background-color: rgb(199, 201, 204);
+  width: 100%;
+}
+.err{
+  color: rgb(206, 70, 70);
+  
+}
+.contenedor-footer{
+  background-color: rgb(236, 236, 233);
+  /* height: 100px;
+  text-align: right;
+  font-size:1rem;
+  width: 102%; */
+     
+}
+
+.powered{
+  background-color: rgb(220, 223, 227);
+  width: 100%;
+  height: 30px;
+}
+.footer_logo{
+max-width:  50%;
+}
+
+
+.social-networks{
+ 
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 2rem;
+  filter: brightness(0);
+} 
